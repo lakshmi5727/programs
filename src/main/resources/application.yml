@@ -1,0 +1,31 @@
+#      
+#spring:
+#  datasource:
+#    password: ${DB_PASSWORD}
+#    driver-class-name: org.postgresql.Driver
+#    username: ${DB_USERNAME}
+#    url: ${JDBC_CONNECTION_STRING}
+#    hikari:
+#      minimum-idle: 25
+#      maximum-pool-size: 200
+#      idle-timeout: 30000
+#      pool-name: SpringBootJPAHikariCP
+#      connection-timeout: 30000
+#  jpa:
+#    properties:
+#      hibernate:
+#        globally_quoted_identifiers: true
+#        dialect: org.hibernate.dialect.SQLServer2016Dialect
+#        format_sql: true
+#    hibernate:
+#      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    show-sql: false
+#springfox:
+#  documentation:
+#    auto-startup: false
+##logging:
+#  level:
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type: TRACE
