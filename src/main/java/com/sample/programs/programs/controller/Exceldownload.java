@@ -38,7 +38,7 @@ public class Exceldownload {
 	        // Create a workbook using the SXSSF implementation
 	        try (SXSSFWorkbook workbook = new SXSSFWorkbook()) {
 	            // Create a sheet in the workbook
-	            Sheet sheet = workbook.createSheet("Sheet 1");
+	            Sheet sheet = workbook.createSheet("Data");
 
 	            // Retrieve data from the database
 	            List<ExcelModel> excelModels = excelDAO.findAll();
